@@ -1,0 +1,4 @@
+langchain
+transformers
+sentence-transformers
+streamlit
