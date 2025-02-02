@@ -1,4 +1,10 @@
+faiss-cpu
+langchain-community
+llama-index
 langchain
-transformers
+openai
+pypdf2
+python-docx
 sentence-transformers
 streamlit
+transformers
