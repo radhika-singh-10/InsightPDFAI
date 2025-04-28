@@ -19,7 +19,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 chunks = text_splitter.split_documents(pages)
 
-
+#need to push hugging face cred code  - from local
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vectorstore = FAISS.from_documents(chunks, embeddings)
 retriever = vectorstore.as_retriever()
